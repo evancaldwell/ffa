@@ -1,0 +1,96 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/firebase-element/firebase-element.html">
+<link rel="import" href="../../bower_components/firebase-element/firebase-login.html">
+<link rel="import" href="../../bower_components/pvc-globals/pvc-globals.html">
+<link rel="import" href="../../bower_components/app-router/app-router.html">
+
+<polymer-element name="app-container" attributes="">
+  <template>
+<!-- =========== non-display ========== -->
+    <link rel="stylesheet" href="app-container.css">
+    <firebase-login 
+        id="baseLogin" 
+        user="{{user}}" 
+        statusKnown="{{statusKnown}}" 
+        location="https://ffapps.firebaseio.com/" 
+        provider="facebook" 
+        on-login="{{onLogin}}"
+        on-error="{{onLoginError}}"></firebase-login>
+    <firebase-element id="base" location="https://faf.firebaseio.com/" data="{{data}}" keys="{{keys}}"></firebase-element>
+    <firebase-element id="users" location="https://faf.firebaseio.com/users/" data="{{users}}" keys="{{userKeys}}"></firebase-element>
+    <pvc-globals values="{{globals}}"></pvc-globals>
+    <!-- TODO: bring this back in when friend-list and app router are working
+    <core-ajax
+      auto
+      url="http://graph.facebook.com/v2.2/me/picture?redirect=false&height=500&type=normal&width=500"
+      handleAs="json"
+      on-core-response="{{handleFBResponse}}"></core-ajax> -->
+
+<!-- =========== display ========== -->
+  <core-drawer-panel transition selected="main" id="core_drawer_panel" touch-action>
+      <core-header-panel id="section" drawer>
+        <core-toolbar>
+          <paper-icon-button id="friend-menu-close" icon="arrow-back" core-drawer-toggle></paper-icon-button>
+          <div>FFA</div>
+        </core-toolbar>
+        <core-menu selected="0" selectedindex="0" id="core_menu" vertical layout one flex>
+          <core-submenu active id="core_submenu" icon="dashboard" label="Dashboard"></core-submenu>
+          <core-submenu id="core_submenu" icon="settings" label="Apps">
+            <core-item id="core_item" label="App 1" horizontal center layout></core-item>
+            <core-item id="core_item1" label="App 2" horizontal center layout></core-item>
+          </core-submenu>
+          <core-submenu id="core_submenu1" icon="settings" label="Reports">
+            <core-item id="core_item2" label="Report 1" horizontal center layout></core-item>
+            <core-item id="core_item3" label="Report 2" horizontal center layout></core-item>
+            <core-item id="core_item4" label="Report 3" horizontal center layout></core-item>
+          </core-submenu>
+        </core-menu>
+      </core-header-panel>
+      <core-header-panel id="section1" main>
+        <core-toolbar id="core_toolbar">
+          <core-icon-button icon="menu" id="core_icon_button" core-drawer-toggle></core-icon-button>
+          <div id="div">Title</div>
+          <paper-menu-button>
+            <paper-icon-button icon="social:person"></paper-icon-button>
+            <paper-dropdown class="dropdown" transition="">
+              <core-menu class="menu">
+                <paper-item on-click="{{login}}" hidden?="{{!statusKnown || user}}">Login</paper-item>
+                <paper-item on-click="{{logout}}" hidden?="{{!statusKnown || !user}}">Logout</paper-item>
+              </core-menu>
+            </paper-dropdown>
+          </paper-menu-button>
+          <template if="{{user}}">{{user.facebook.displayName}}</template>
+        </core-toolbar>
+      </core-header-panel>
+    </core-drawer-panel>
+
+    <script>
+      (function () {
+        'use strict';
+
+        Polymer({
+          // define element prototype here
+          login: function() {
+            this.$.baseLogin.login();
+          },
+          logout: function() {
+            this.$.baseLogin.logout();
+          },
+          onLogin: function() {
+            this.globals.currentUser = this.user;
+            this.globals.fireKeys = this.keys;
+            this.globals.fireData = this.data;
+            console.log('user is: ' + JSON.stringify(this.globals.currentUser));
+            console.log('data is: ' + JSON.stringify(this.globals.fireData));
+          },
+          onLoginError: function(err) {
+            console.log('An error occurred: ' + JSON.stringify(err));
+          },
+          handleFBResponse: function(response) {
+            console.log('FB response: ' + JSON.stringify(response));
+          }
+        });
+
+      })();
+    </script>
+</polymer-element>

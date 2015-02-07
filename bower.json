@@ -1,0 +1,24 @@
+{
+  "name": "ffa",
+  "version": "0.0.0",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5.1",
+    "app-router": "~2.3.2",
+    "pvc-globals": "~0.1.0",
+    "firebase-element": "polymer/firebase-element#~0.5.4",
+    "core-item": "polymer/core-item#~0.5.4",
+    "core-menu": "polymer/core-menu#~0.5.4",
+    "core-toolbar": "polymer/core-toolbar#~0.5.4",
+    "core-icon-button": "polymer/core-icon-button#~0.5.4",
+    "core-header-panel": "polymer/core-header-panel#~0.5.4",
+    "core-drawer-panel": "polymer/core-drawer-panel#~0.5.4",
+    "paper-icon-button": "polymer/paper-icon-button#~0.5.4",
+    "paper-dropdown": "polymer/paper-dropdown#~0.5.4",
+    "paper-menu-button": "polymer/paper-menu-button#~0.5.4",
+    "paper-item": "polymer/paper-item#~0.5.4",
+    "paper-shadow": "polymer/paper-shadow#~0.5.4"
+  },
+  "devDependencies": {
+    "web-component-tester": "Polymer/web-component-tester#^2.0.0"
+  }
+}

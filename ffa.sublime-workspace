@@ -1,0 +1,1335 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"id",
+				"id=\"base"
+			],
+			[
+				"locatio",
+				"location=\"https"
+			],
+			[
+				"fav",
+				"favorite"
+			],
+			[
+				"paper-ta",
+				"paper-tabs"
+			],
+			[
+				"bak",
+				"background"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"get",
+				"getElementsByTagName  (function)"
+			],
+			[
+				"getElements",
+				"getElementsByTagName  (function)"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"prev",
+				"previousElementSibling"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"ri",
+				"ri"
+			],
+			[
+				"hand",
+				"HANDLER"
+			],
+			[
+				"Decla",
+				"DECLARE"
+			],
+			[
+				"Nul",
+				"NULL"
+			],
+			[
+				"tran",
+				"transaction"
+			],
+			[
+				"TRANUP",
+				"transaction_upload"
+			],
+			[
+				"da",
+				"DATE"
+			],
+			[
+				"var",
+				"VARCHAR2"
+			],
+			[
+				"payment",
+				"payment_account_number"
+			],
+			[
+				"transactio",
+				"transaction_type"
+			],
+			[
+				"renta",
+				"rental_id"
+			],
+			[
+				"common",
+				"common_lookup_id"
+			],
+			[
+				"Nu",
+				"NUMBER"
+			],
+			[
+				"end",
+				"END"
+			],
+			[
+				"rental_item",
+				"rental_item"
+			],
+			[
+				"int",
+				"INT"
+			],
+			[
+				"UTC",
+				"UTC_DATE"
+			],
+			[
+				"tru",
+				"TRUNC"
+			],
+			[
+				"rental",
+				"rental_item_price"
+			],
+			[
+				"alter",
+				"ALTER"
+			],
+			[
+				"W",
+				"WHERE"
+			],
+			[
+				"Sel",
+				"SELECT"
+			],
+			[
+				"comm",
+				"common_lookup_type"
+			],
+			[
+				"from",
+				"FROM"
+			],
+			[
+				"Movie",
+				"Movie1"
+			],
+			[
+				"fro",
+				"FROM"
+			],
+			[
+				"pric",
+				"price_fk3"
+			],
+			[
+				"Pric",
+				"PRICE"
+			],
+			[
+				"constraint",
+				"CONSTRAINT"
+			],
+			[
+				"Da",
+				"DATE"
+			],
+			[
+				"home",
+				"HOME"
+			],
+			[
+				"teley",
+				"TELEPHONE_TYPE"
+			],
+			[
+				"tele",
+				"TELEPHONE"
+			],
+			[
+				"add",
+				"ADDRESS_TYPE"
+			],
+			[
+				"and",
+				"AND"
+			],
+			[
+				"cmmon_loo",
+				"common_lookup"
+			],
+			[
+				"common_loo",
+				"common_lookup_nn21"
+			],
+			[
+				"com",
+				"common_lookup"
+			],
+			[
+				"c",
+				"c"
+			],
+			[
+				"create",
+				"create_oracle_store"
+			],
+			[
+				"FROM",
+				"FROM"
+			],
+			[
+				"docum",
+				"document_s"
+			],
+			[
+				"num",
+				"NUMBER"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"rej",
+				"rejectedGrid"
+			],
+			[
+				"app",
+				"approvedGrid"
+			],
+			[
+				"pendi",
+				"pendingGrid"
+			],
+			[
+				"aut",
+				"auth_user"
+			],
+			[
+				"clok",
+				"clockEntries"
+			],
+			[
+				"wor",
+				"work_date"
+			],
+			[
+				"requi",
+				"requires_login"
+			],
+			[
+				"time",
+				"timeclock"
+			],
+			[
+				"reve",
+				"reviewProjects"
+			],
+			[
+				"project",
+				"project_desc"
+			],
+			[
+				"projec",
+				"project_reviewed"
+			],
+			[
+				"siri",
+				"siri_projects"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"border",
+				"border-box"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/elements/elements.html",
+			"settings":
+			{
+				"buffer_size": 1322,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 4994,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/elements/app-container/app-container.html",
+			"settings":
+			{
+				"buffer_size": 4514,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 490.0,
+		"selected_items":
+		[
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sideb",
+				"View: Toggle Side Bar"
+			],
+			[
+				"diff",
+				"FileDiffs: Menu"
+			],
+			[
+				"wordw",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"html b",
+				"HTMLBeautify"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"lore",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"filediff",
+				"FileDiffs: Menu"
+			],
+			[
+				"file",
+				"FileDiffs: Menu"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sssq",
+				"Set Syntax: SQL"
+			],
+			[
+				"bhf",
+				"BracketHighlighter: Fold Bracket Content"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JSON"
+			],
+			[
+				"ss sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"uper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"uppr",
+				"Convert Case: Upper Case"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"ccu",
+				"Convert Case: Upper Case"
+			],
+			[
+				"ccl",
+				"Convert Case: Lower Case"
+			],
+			[
+				"filed",
+				"FileDiffs: Menu"
+			],
+			[
+				"sspl",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"sssql",
+				"Set Syntax: SQL"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sscss",
+				"Set Syntax: CSS"
+			],
+			[
+				"sshm",
+				"Set Syntax: HTML"
+			],
+			[
+				"sid",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sfb",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sftp:s",
+				"SFTP: Setup Server…"
+			],
+			[
+				"ssja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"proje",
+				"Project: Close"
+			],
+			[
+				"sftb",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sfts",
+				"SFTP: Setup Server…"
+			],
+			[
+				"sfte",
+				"SFTP: Edit Server…"
+			],
+			[
+				"sft",
+				"SFTP: Edit Server…"
+			],
+			[
+				"proj",
+				"Project: Add Folder"
+			],
+			[
+				"poj",
+				"Project: Save As"
+			],
+			[
+				"sftm",
+				"SFTP: Edit Remote Mapping…"
+			],
+			[
+				"sf",
+				"SFTP: Edit Server…"
+			],
+			[
+				"sftobs",
+				"SFTP: Browse Server…"
+			],
+			[
+				"toggle side",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"open files",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"sftpb",
+				"SFTP: Browse Server…"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"",
+				"Emmet: Decrement Number by 0.1"
+			],
+			[
+				"ssjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"sftp",
+				"Set Syntax: SFTP Output Panel"
+			],
+			[
+				"ssjso",
+				"Set Syntax: JSON"
+			],
+			[
+				"sftpsh",
+				"SFTP: Show Panel"
+			],
+			[
+				"sft b",
+				"SFTP: Browse Server…"
+			],
+			[
+				"ssh",
+				"Set Syntax: HTML"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 725.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"package control",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read()) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/dev/ffa/app",
+		"/C/dev/ffa/app/elements",
+		"/C/dev/ffa/app/elements/app-container",
+		"/C/dev/ffa/app/elements/yo-greeting"
+	],
+	"file_history":
+	[
+		"/C/dev/Polymer/polyfaf/bower.json",
+		"/C/dev/Polymer/polyfaf/app/scripts/app.js",
+		"/C/dev/Polymer/polyfaf/app/styles/main.scss",
+		"/C/dev/Polymer/polyfaf/app/elements/friend-card/friend-card.scss",
+		"/C/dev/Polymer/polyfaf/.gitignore",
+		"/C/dev/Polymer/polymer-tutorial-master/starter/index.html",
+		"/C/dev/web2py/applications/mqr/models/db_wizard.py",
+		"/C/dev/web2py/applications/mqr/controllers/cms.py",
+		"/C/dev/web2py/applications/mqr/models/db.py",
+		"/C/dev/web2py/applications/mqr/views/layout.html",
+		"/C/dev/web2py/applications/mqr/views/cms/display_manage.html",
+		"/C/dev/web2py/applications/mqr/views/default/exhibit_details.html",
+		"/C/dev/web2py/applications/mqr/views/default/group_details.html",
+		"/C/dev/web2py/applications/mqr/controllers/default.py",
+		"/C/dev/web2py/applications/mqr/views/cms/exhibits_manage.html",
+		"/C/dev/web2py/applications/mqr/views/default/collection_details.html",
+		"/C/dev/web2py/applications/mqr/models/menu.py",
+		"/C/Users/Evan Caldwell/Google Drive/School/COMM 130/website/style.css",
+		"/C/dev/web2py/applications/wm/static/css/bootstrap.min.css",
+		"/C/dev/web2py/applications/wm/views/view-prototype/css/bootstrap-theme.css",
+		"/C/dev/web2py/applications/wm/views/view-prototype/css/bootstrap-theme.css.map",
+		"/C/Users/Evan Caldwell/Google Drive/School/COMM 130/website/P7Draft.txt",
+		"/C/Users/Evan Caldwell/Google Drive/School/Archive/CIT261/index.php",
+		"/C/dev/workspace/faf-html-2/faf-html/css/style.css",
+		"/C/Users/Evan Caldwell/Google Drive/School/CIT225/logs/cleanup.log",
+		"/C/tmp/Lab8_Final_CSV_Files.zip",
+		"/C/Users/Evan Caldwell/Google Drive/School/CIT225/lab8/mysql_lab6.sql",
+		"/C/Users/Evan Caldwell/Google Drive/School/CIT225/lab8/mysql_lab7.sql",
+		"/C/Users/Evan Caldwell/Google Drive/School/CIT225/logs/mysql_lab6.log",
+		"/C/Users/Evan Caldwell/Google Drive/School/CIT225/lab6/gabe_mysql_lab6.sql",
+		"/C/Users/Evan Caldwell/Google Drive/School/CIT225/lab6/mysql_lab6.sql",
+		"/C/Users/Evan Caldwell/Google Drive/School/CIT225/lab8/mysql_lab7 (1).sql",
+		"/C/Users/Evan Caldwell/Google Drive/School/CIT225/from tutor",
+		"/C/Users/Evan Caldwell/Google Drive/School/CIT225/logs/mysql_lab7.txt",
+		"/C/Users/Evan Caldwell/Google Drive/School/CIT225/lab8/oracle_lab8.sql",
+		"/C/Users/Evan Caldwell/Google Drive/School/CIT225/lab7/mysql_lab7.sql",
+		"/C/Users/Evan Caldwell/Google Drive/School/CIT225/lab7/oracle_lab7.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/logs/mysql_lab7.txt",
+		"/C/Users/evan/Google Drive/School/CIT225/lab6/gabe_mysql_lab6.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/lab5/mysql_lab5.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/lib/create_mysql_store_ri2.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/lib/seed_mysql_store_ri2.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/logs/mysql_lab6.log",
+		"/C/Users/evan/Google Drive/School/CIT225/logs/mysql_lab5.txt",
+		"/C/Users/evan/Google Drive/School/CIT225/logs/seed_mysql_store.txt",
+		"/C/Users/evan/Google Drive/School/CIT225/logs/create_mysql_store.txt",
+		"/C/Users/evan/Google Drive/School/CIT225/lab6/oracle_lab6.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/lab6/mysql_lab6.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/lab7/oracle_lab7.sql",
+		"/C/Users/evan/Google Drive/School/CS313/Java/FQL",
+		"/C/Users/evan/Google Drive/School/CIT225/lab7/mysql_lab7.sql",
+		"/C/Users/evan/Google Drive/Work/SIRI/Museum QR/current_geo_db.csv",
+		"/C/Users/evan/Google Drive/Work/SIRI/Museum QR/current_geo_db.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/lib/cleanup.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/lab5/oracle_lab5.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/logs/seed_oracle_store.log",
+		"/C/Users/evan/Google Drive/School/CIT225/lab6/gabe_oracle_lab6.sql",
+		"/C/tmp/kingdom_mysql_import.csv",
+		"/C/tmp/transaction_upload.csv",
+		"/C/Users/evan/Google Drive/School/CIT225/logs/oracle_lab7.log",
+		"/C/Users/evan/Google Drive/School/CIT225/seed_oracle_store.log",
+		"/C/Users/evan/Google Drive/School/CIT225/create_oracle_store.log",
+		"/C/Users/evan/Google Drive/School/CIT225/logs/oracle_lab6.log",
+		"/C/Users/evan/Google Drive/School/CIT225/logs/oracle_lab5.log",
+		"/C/Users/evan/Google Drive/School/CIT225/lib/create_oracle_store.log",
+		"/C/Users/evan/Google Drive/School/CIT225/lib/create_oracle_store.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/lib/seed_oracle_store.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/oracle_lab5.log",
+		"/C/Users/evan/Google Drive/School/CIT225/oracle_lab7.log",
+		"/C/Users/evan/Google Drive/School/CIT225/lab7/oracle_lab7.log",
+		"/C/Users/evan/Google Drive/School/CIT225/lab6/gabe-oracle_la6b6.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/mysql_lab6.txt",
+		"/C/Users/evan/Google Drive/School/CIT225/lab6/gabe-mysql-lab6.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/from class 2-5.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/oracle_lab6.log",
+		"/C/Users/evan/Google Drive/School/CIT225/from class 2-10.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/from class 2-19.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/lab6/oracle_lab6.log",
+		"/C/Users/evan/Google Drive/School/CIT225/lab5/apply_mysql_lab5.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/lab5/apply_mysql_lab5.txt",
+		"/C/Users/evan/Google Drive/School/CIT225/create_mysql_store.txt",
+		"/C/Users/evan/Google Drive/School/CIT225/lab4/seed_mysql_store_ri_lab.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/lab2/create_mysql_store_ri_lab.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/lib/seed_mysql_store_ri.sql",
+		"/C/Users/evan/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.errors.log",
+		"/C/Users/evan/Google Drive/School/CIT225/lib/create_mysql_store_ri.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/lab4/seed_mysql_store_lab.txt",
+		"/C/Users/evan/Google Drive/School/CIT225/lab2/create_mysql_store_lab.txt",
+		"/C/Users/evan/Google Drive/School/CIT225/connect_errno",
+		"/C/Users/evan/Google Drive/School/CIT225/seed_mysql_store.txt",
+		"/C/Users/evan/Google Drive/School/CIT225/create_mysql_store_ri.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/lab2/create_mysql_store_ri_lab_bad1.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/create_mysql_store_ri_lab.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/lab4/oracle_lab4.sql",
+		"/C/Users/evan/Google Drive/School/CIT225/seed_mysql_store_ri.sql",
+		"/C/Users/evan/Google Drive/School/CIT 225/lib/create_mysql_store_ri.sql",
+		"/C/Users/evan/Google Drive/School/CIT 225/lib/seed_mysql_store_ri.sql",
+		"/C/Users/evan/Google Drive/School/CIT 225/lab4/seed_oracle_store_lab.sql",
+		"/C/Users/evan/Google Drive/School/CIT 225/lib/seed_oracle_store.sql",
+		"/C/Users/evan/Google Drive/School/CIT 225/create_oracle_store_lab.sql",
+		"/C/Users/evan/Google Drive/School/CIT 225/seed_mysql_store.txt",
+		"/C/Users/evan/Google Drive/School/CIT 225/tst_xm2.sql",
+		"/C/Users/evan/Google Drive/School/CIT 225/lab4/signature-oracle.sql",
+		"/C/Users/evan/Google Drive/School/CIT 225/create_mysql_store_ri.sql",
+		"/C/Users/evan/Desktop/ftw-wp-content/new.ftw-bk/wp-config.php",
+		"/C/Users/evan/Desktop/ftw-wp-content/wp-config.php",
+		"/C/Users/evan/Google Drive/School/CIT 225/create_oracle_store.sql",
+		"/C/xampp/htdocs/conn/connAdmin.php",
+		"/C/xampp/htdocs/library/library.php",
+		"/C/Users/evan/Google Drive/School/CS313/App/modules/menu-bar.php",
+		"/C/Users/evan/Google Drive/School/CS313/App/style.css",
+		"/C/Users/evan/Google Drive/School/CS313/App/conn/connAdmin.php",
+		"/C/Users/evan/Google Drive/School/CS313/App/modules/head.php",
+		"/C/Users/evan/Google Drive/School/CS313/App/index.php",
+		"/C/Users/evan/Google Drive/School/CS313/App/app_home.html",
+		"/C/xampp/htdocs/index.php",
+		"/C/Users/evan/web2py/applications/mqr/modules/__init__.py",
+		"/C/Users/evan/web2py/applications/mqr/views/default/group_details.html",
+		"/C/Users/evan/web2py/applications/mqr/views/cms/comments_admin_dash.html",
+		"/C/Users/evan/web2py/applications/mqr/views/cms/comments_manage.html",
+		"/C/Users/evan/web2py/applications/mqr/views/default/comments_dash.html",
+		"/C/Users/evan/web2py/applications/mqr/views/default/view_groups.html",
+		"/C/users/evan/appdata/local/temp/sublime-sftp-browse-1384983871/siri_pa/home/SIRI/web2py/applications/mqr/static/css/geo-style.css",
+		"/C/users/evan/appdata/local/temp/sublime-sftp-browse-1384984172/siri_pa/home/SIRI/web2py/applications/mqr/controllers/default.py",
+		"/C/users/evan/appdata/local/temp/sublime-sftp-browse-1384982809/siri_pa/home/SIRI/web2py/applications/mqr/views/default/veiw_displays.html",
+		"/C/users/evan/appdata/local/temp/sublime-sftp-browse-1384984102/siri_pa/home/SIRI/web2py/applications/mqr/views/default/exhibit_details.html",
+		"/C/users/evan/appdata/local/temp/sublime-sftp-browse-1384982783/siri_pa/home/SIRI/web2py/applications/mqr/views/default/view_exhibits.html",
+		"/C/users/evan/appdata/local/temp/sublime-sftp-browse-1384982844/siri_pa/home/SIRI/web2py/applications/mqr/views/default/group_details.html"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 127.0,
+		"where_history":
+		[
+			"C:\\dev\\web2py\\applications\\mqr"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"base",
+			"onlogin",
+			"currentUser",
+			"onlogin",
+			"globals.",
+			"data",
+			"Data",
+			"data",
+			"platform",
+			"data",
+			"friends",
+			"200",
+			"200\"",
+			"favorite",
+			"200\"},",
+			"{f",
+			"for",
+			"membership",
+			"me",
+			"<i",
+			"i",
+			"myCarousel",
+			"250",
+			"thinkDesc",
+			"desc ",
+			"desc",
+			"var",
+			"direction",
+			"height",
+			"error",
+			"n:",
+			"rollback",
+			"error",
+			"ERR",
+			"errror",
+			"error",
+			"ERROR",
+			"error",
+			"_mysql",
+			"error",
+			"err",
+			"upload_transaction_log",
+			"UPLOAD_TRANSACTION_LOG",
+			"upload_transaction_log",
+			"UPLOAD_TRANSACTION_LOG",
+			"download",
+			"upload_tran",
+			"err",
+			"NVL",
+			"trunc",
+			"err",
+			"+-----------+------------+",
+			"err",
+			"error",
+			"trunc",
+			"USING",
+			"Merge",
+			"MERGE",
+			"Merge",
+			"MERGE",
+			"Merge",
+			"MERGE",
+			"Merge",
+			"MERGE",
+			"Merge",
+			"MERGE",
+			"transaction_upload",
+			"error",
+			"3.D",
+			"3.d",
+			"airport_s1.NEXTVAL",
+			"CONSTRAINT",
+			"-----",
+			"error",
+			"VARCHAR2",
+			"error",
+			"C:\\Users\\evan\\Google Drive\\School\\CIT225\\",
+			"NOT NULL",
+			"NOT NULL\n, airport_city			VARCHAR(30)	NOT NULL",
+			"NUMBER",
+			"SYSDATE",
+			"           ",
+			"error",
+			"CONSTRAINT",
+			"common_lookup_s1.NEXTVAL",
+			"CONSTRAINT",
+			"FOREIGN KEY",
+			"merge into",
+			"error",
+			"STEP",
+			"TRANSACTION",
+			"transaction",
+			"TRANSACTION",
+			"transaction",
+			"TRANSACTION",
+			"CONSTRAINT",
+			"FOREIGN",
+			"transaction",
+			"TRANSACTION",
+			"transaction",
+			"TRANSACTION",
+			"item_id",
+			"_price",
+			"ERROR",
+			"UTC_DATE",
+			"'home'",
+			"error",
+			"'home'",
+			"	",
+			"'home'",
+			"TELEPHONE",
+			"'WORK'",
+			"'HOME'",
+			"||",
+			"ERROR",
+			"'HOME'",
+			"release_date()",
+			"date()",
+			"i.item_release_date,UTC_DATE()",
+			"(DATE(UTC_DATE()) - DATE(i.item_release_date))",
+			"i.release_date",
+			"NVL",
+			"TRUNC",
+			"SYSDATE",
+			"set",
+			"not nul",
+			"error",
+			"AS VARCHAR(30)"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"mainCarousel",
+			"VARCHAR",
+			"INT UNSIGNED",
+			"UTC_DATE()",
+			"release_date",
+			"date",
+			"UTC_DATE(),i.item_release_date",
+			"-DAY-RENTAL",
+			"",
+			"-DAY-RENTAL",
+			"ALTER TABLE",
+			"telephone_lab",
+			"_lab",
+			"_lab_fk",
+			"system_user_lab",
+			"rental_lab",
+			"member_lab",
+			"item_lab",
+			"contact_lab",
+			"common_lookup_lab",
+			"address_lab",
+			"CIT225",
+			"memeber_lab",
+			"_",
+			"system_user",
+			"telephone_lab",
+			"rental_lab",
+			"member_lab",
+			"item_lab",
+			"common_lookup_lab",
+			"address_lab",
+			"system_user_lab",
+			" member_lab",
+			" member",
+			"MEMBER",
+			"contacts_lab",
+			"telephone_lab",
+			"system_user_lab",
+			"rental_item",
+			"rental_lab",
+			" member_lab",
+			"item_lab",
+			"contact_lab",
+			"common_lookup_lab",
+			"address_lab",
+			"COMMON_LOOKUP_LAB",
+			"address_lab",
+			"rental_lab",
+			"telephone_lab",
+			"system_user_lab",
+			"member_lab",
+			"item_lab",
+			"contact_lab",
+			"common_lookup_lab",
+			"address_lab",
+			"telephone_lab",
+			"system_user_lab",
+			"street_address_lab",
+			"rental_item_lab",
+			"rental_lab",
+			"item_lab",
+			"contact_lab",
+			"common_lookup_lab",
+			"address_lab",
+			"member_lab",
+			"item_lab",
+			"contact_lab",
+			"common_lookup_lab",
+			"address_lab",
+			"collection",
+			"fs_volunteers",
+			"space",
+			"r",
+			"vph",
+			"vpw"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/elements/elements.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								104,
+								104
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"incomplete_sync": null,
+							"last_modified_indicator": true,
+							"last_modified_indicator_file_save_clear": false,
+							"last_modified_indicator_multiline": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4994,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2170,
+								2170
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"incomplete_sync": null,
+							"last_modified_indicator": true,
+							"last_modified_indicator_file_save_clear": false,
+							"last_modified_indicator_multiline": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 26.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/elements/app-container/app-container.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4514,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1796,
+								2650
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"incomplete_sync": null,
+							"last_modified_indicator": true,
+							"last_modified_indicator_file_save_clear": false,
+							"last_modified_indicator_multiline": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 148.0
+	},
+	"project": "ffa.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"group",
+				"views\\default\\group_details.html"
+			],
+			[
+				"view_grou",
+				"views\\default\\view_groups.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\dev\\Polymer\\polyfaf\\polyfaf.sublime-project"
+			],
+			[
+				"ffa",
+				"C:\\dev\\ffa\\app\\ffa.sublime-workspace"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 311.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
