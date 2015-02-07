@@ -1,13 +1,9 @@
 <link rel="import" href="../../bower_components/polymer/polymer.html">
-<link rel="import" href="../../bower_components/firebase-element/firebase-element.html">
-<link rel="import" href="../../bower_components/firebase-element/firebase-login.html">
-<link rel="import" href="../../bower_components/pvc-globals/pvc-globals.html">
-<link rel="import" href="../../bower_components/app-router/app-router.html">
 
 <polymer-element name="app-container" attributes="">
   <template>
-<!-- =========== non-display ========== -->
     <link rel="stylesheet" href="app-container.css">
+    <!-- =========== non-display ========== -->
     <firebase-login 
         id="baseLogin" 
         user="{{user}}" 
@@ -26,11 +22,11 @@
       handleAs="json"
       on-core-response="{{handleFBResponse}}"></core-ajax> -->
 
-<!-- =========== display ========== -->
-  <core-drawer-panel transition selected="main" id="core_drawer_panel" touch-action>
+    <!-- =========== display ========== -->
+    <core-drawer-panel transition selected="main" id="core_drawer_panel" touch-action>
       <core-header-panel id="section" drawer>
-        <core-toolbar>
-          <paper-icon-button id="friend-menu-close" icon="arrow-back" core-drawer-toggle></paper-icon-button>
+        <core-toolbar class="drawer-title">
+          <paper-icon-button class="drawer-close-icon" icon="arrow-back" core-drawer-toggle></paper-icon-button>
           <div>FFA</div>
         </core-toolbar>
         <core-menu selected="0" selectedindex="0" id="core_menu" vertical layout one flex>
@@ -48,7 +44,7 @@
       </core-header-panel>
       <core-header-panel id="section1" main>
         <core-toolbar id="core_toolbar">
-          <core-icon-button icon="menu" id="core_icon_button" core-drawer-toggle></core-icon-button>
+          <core-icon-button icon="menu" id="drawer-open-icon" core-drawer-toggle></core-icon-button>
           <div id="div">Title</div>
           <paper-menu-button>
             <paper-icon-button icon="social:person"></paper-icon-button>
@@ -61,6 +57,7 @@
           </paper-menu-button>
           <template if="{{user}}">{{user.facebook.displayName}}</template>
         </core-toolbar>
+        <yo-greeting></yo-greeting>
       </core-header-panel>
     </core-drawer-panel>
 
@@ -93,4 +90,12 @@
 
       })();
     </script>
+  </template>
+  <script>
+    (function () {
+      Polymer({
+        // define element prototype here
+      });
+    })();
+  </script>
 </polymer-element>

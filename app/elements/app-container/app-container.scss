@@ -13,7 +13,10 @@ core-header-panel::shadow #mainContainer {
 }
 
 core-toolbar {
-  background: none;
+  background: #48A204;
+  #drawer-open-icon {
+  	margin-left: -20px;
+  }
 }
 
 .core-header {
@@ -43,10 +46,10 @@ core-toolbar {
   background: #fff;
 }
 
-#friend-menu-open {
-	margin-left: -33px;
-}
-
-#friend-menu-close {
-	margin-left: -22px;
+.drawer-title {
+	background: #2B94D4;
+	color: #fff;
+	paper-icon-button {
+		margin-left: -15px;
+	}
 }
