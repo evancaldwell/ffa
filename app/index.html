@@ -22,7 +22,12 @@
     <!-- endbuild-->
   </head>
   <body unresolved>
+    <!-- =========== non-display ========== -->
+    <firebase-element id="base" location="https://ffapps.firebaseio.com/" data="{{data}}" keys="{{keys}}"></firebase-element>
+    <firebase-element id="users" location="https://ffapps.firebaseio.com/users/" data="{{users}}" keys="{{userKeys}}"></firebase-element>
+    <pvc-globals values="{{globals}}"></pvc-globals>
 
+    <!-- =========== display ========== -->
     <app-container></app-container>
 
     <!-- build:js scripts/app.js -->

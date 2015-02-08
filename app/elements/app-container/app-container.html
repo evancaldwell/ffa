@@ -4,14 +4,6 @@
   <template>
     <link rel="stylesheet" href="app-container.css">
     <!-- =========== non-display ========== -->
-    <firebase-login 
-        id="baseLogin" 
-        user="{{user}}" 
-        statusKnown="{{statusKnown}}" 
-        location="https://ffapps.firebaseio.com/" 
-        provider="facebook" 
-        on-login="{{onLogin}}"
-        on-error="{{onLoginError}}"></firebase-login>
     <firebase-element id="base" location="https://faf.firebaseio.com/" data="{{data}}" keys="{{keys}}"></firebase-element>
     <firebase-element id="users" location="https://faf.firebaseio.com/users/" data="{{users}}" keys="{{userKeys}}"></firebase-element>
     <pvc-globals values="{{globals}}"></pvc-globals>
@@ -45,7 +37,7 @@
       <core-header-panel id="section1" main>
         <core-toolbar id="core_toolbar">
           <core-icon-button icon="menu" id="drawer-open-icon" core-drawer-toggle></core-icon-button>
-          <div id="div">Title</div>
+          <div id="title" flex>Dashboard</div>
           <paper-menu-button>
             <paper-icon-button icon="social:person"></paper-icon-button>
             <paper-dropdown class="dropdown" transition="">
@@ -60,36 +52,6 @@
         <yo-greeting></yo-greeting>
       </core-header-panel>
     </core-drawer-panel>
-
-    <script>
-      (function () {
-        'use strict';
-
-        Polymer({
-          // define element prototype here
-          login: function() {
-            this.$.baseLogin.login();
-          },
-          logout: function() {
-            this.$.baseLogin.logout();
-          },
-          onLogin: function() {
-            this.globals.currentUser = this.user;
-            this.globals.fireKeys = this.keys;
-            this.globals.fireData = this.data;
-            console.log('user is: ' + JSON.stringify(this.globals.currentUser));
-            console.log('data is: ' + JSON.stringify(this.globals.fireData));
-          },
-          onLoginError: function(err) {
-            console.log('An error occurred: ' + JSON.stringify(err));
-          },
-          handleFBResponse: function(response) {
-            console.log('FB response: ' + JSON.stringify(response));
-          }
-        });
-
-      })();
-    </script>
   </template>
   <script>
     (function () {
