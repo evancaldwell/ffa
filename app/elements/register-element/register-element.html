@@ -27,12 +27,30 @@
     <paper-item on-click="{{login}}" hidden?="{{!statusKnown || user}}">Login</paper-item>
     <paper-item on-click="{{logout}}" hidden?="{{!statusKnown || !user}}">Logout</paper-item>
 
-  </template>
   <script>
     (function () {
+      'use strict';
+
       Polymer({
         // define element prototype here
+        login: function() {
+          this.$.baseLogin.login();
+        },
+        logout: function() {
+          this.$.baseLogin.logout();
+        },
+        onLogin: function() {
+          this.globals.currentUser = this.user;
+          this.globals.fireKeys = this.keys;
+          this.globals.fireData = this.data;
+          console.log('user is: ' + JSON.stringify(this.globals.currentUser));
+          console.log('data is: ' + JSON.stringify(this.globals.fireData));
+        },
+        onLoginError: function(err) {
+          console.log('An error occurred: ' + JSON.stringify(err));
+        }
       });
+
     })();
   </script>
 </polymer-element>
