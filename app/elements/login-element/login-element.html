@@ -18,8 +18,9 @@
     <!-- =========== display ========== -->
     <section class="full-height" horizontal center-justified center layout>
       <div>
-        <paper-item on-click="{{login}}" hidden?="{{!statusKnown || user}}">Login</paper-item>
-        <paper-item on-click="{{logout}}" hidden?="{{!statusKnown || !user}}">Logout</paper-item>
+        <h1>Login with:</h1>
+        <paper-button on-click="{{login}}" hidden?="{{!statusKnown || user}}"><social-media-icons icon="github" color="#bada55" size="35"></social-media-icons>Github</paper-button>
+        <paper-button on-click="{{logout}}" hidden?="{{!statusKnown || !user}}">Logout</span></paper-button>
       </div>
     </section>
 
