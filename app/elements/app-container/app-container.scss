@@ -4,8 +4,24 @@
   height: 100%;
 }
 
+core-drawer-panel > #edgeSwipeOverlay {
+	top: 55px;
+}
+
 core-header-panel {
   height: 100%;
+  #pic-button {
+  	font-size: 70%;
+  	core-image {
+  		height: 55px;
+  		width: 55px;
+  		background-color: lightgrey;
+  		border-radius: 50%;
+  	}
+  	paper-item {
+  		color: black;
+  	}
+  }
 }
 
 core-header-panel::shadow #mainContainer {
@@ -28,11 +44,6 @@ core-toolbar {
   background-color: #3F51B5;
   color: #fff;
   transition: height 0.2s;
-  paper-dropdown {
-  	right: 0;
-  	top: 0;
-  	width: 125px;
-  }
 }
 
 .core-header paper-item {

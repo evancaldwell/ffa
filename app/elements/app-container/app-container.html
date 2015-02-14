@@ -42,15 +42,15 @@
           <core-toolbar id="core_toolbar">
             <core-icon-button icon="menu" id="drawer-open-icon" core-drawer-toggle></core-icon-button>
             <div id="title" flex>Dashboard</div>
-            <paper-menu-button>
-              <paper-icon-button icon="social:person"></paper-icon-button>
-              <paper-dropdown class="dropdown" transition="">
+            <paper-menu-button id="pic-button">
+              <core-image sizing="cover" preload fade  src="{{globals.currentUser.github.cachedUserProfile.avatar_url}}"></core-image>
+              <paper-dropdown class="dropdown" halign="right">
                 <core-menu class="menu">
-                  <paper-item on-click="{{logout}}" hidden?="{{!statusKnown || !globals.currentUser}}">Logout</paper-item>
+                    <paper-item>Profile</paper-item>
+                    <paper-item>Logout</paper-item>
                 </core-menu>
               </paper-dropdown>
             </paper-menu-button>
-            <template if="{{user}}">{{user.facebook.displayName}}</template>
           </core-toolbar>
           <p>{{globals.currentUser.uid}}</p>
         </core-header-panel>

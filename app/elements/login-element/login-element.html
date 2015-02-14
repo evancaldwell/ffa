@@ -16,8 +16,12 @@
     <pvc-globals values="{{globals}}"></pvc-globals>
 
     <!-- =========== display ========== -->
-    <paper-item on-click="{{login}}" hidden?="{{!statusKnown || user}}">Login</paper-item>
-    <paper-item on-click="{{logout}}" hidden?="{{!statusKnown || !user}}">Logout</paper-item>
+    <section class="full-height" horizontal center-justified center layout>
+      <div>
+        <paper-item on-click="{{login}}" hidden?="{{!statusKnown || user}}">Login</paper-item>
+        <paper-item on-click="{{logout}}" hidden?="{{!statusKnown || !user}}">Logout</paper-item>
+      </div>
+    </section>
 
   </template>
   <script>
