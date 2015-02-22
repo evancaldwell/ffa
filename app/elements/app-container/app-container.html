@@ -15,8 +15,13 @@
       on-core-response="{{handleFBResponse}}"></core-ajax> -->
 
     <!-- =========== display ========== -->
-    
-    <login-element></login-element>
+    <section class="full-height" horizontal center-justified center layout>
+      <div vertical layout>
+        <h1>Login With:</h1>
+        <github-fire-login></github-fire-login>
+        <facebook-fire-login></facebook-fire-login>
+      </div>
+    </section>
 
     <template bind if="{{globals.currentUse}}">
       <core-drawer-panel transition selected="main" id="core_drawer_panel" touch-action>

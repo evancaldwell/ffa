@@ -1,0 +1,54 @@
+<polymer-element name="github-fire-login" attributes="">
+  <template>
+    <link rel="stylesheet" href="github-fire-login.css">
+
+    <!-- =========== non-display ========== -->
+    <firebase-login 
+        id="GHbaseLogin" 
+        user="{{user}}" 
+        statusKnown="{{statusKnown}}" 
+        location="https://ffapps.firebaseio.com/" 
+        provider="github" 
+        on-login="{{onLogin}}"
+        on-error="{{onLoginError}}"></firebase-login>
+    <firebase-element id="base" location="https://ffapps.firebaseio.com/" data="{{data}}" keys="{{keys}}"></firebase-element>
+    <firebase-element id="users" location="https://ffapps.firebaseio.com/users/" data="{{users}}" keys="{{userKeys}}"></firebase-element>
+    <pvc-globals values="{{globals}}"></pvc-globals>
+
+    <!-- =========== display ========== -->
+    <section>
+      <paper-button on-click="{{login}}" hidden?="{{!statusKnown || user}}"><social-media-icons icon="github" color="#bada55" size="35"></social-media-icons>Github</paper-button>
+      <paper-button on-click="{{logout}}" hidden?="{{!statusKnown || !user}}">Logout</span></paper-button>
+    </section>
+
+  </template>
+  <script>
+    (function () {
+      'use strict';
+
+      Polymer({
+        // define element prototype here
+        login: function() {
+          this.$.GHbaseLogin.login();
+        },
+        logout: function() {
+          this.$.GHbaseLogin.logout();
+        },
+        onLogin: function() {
+          this.globals.currentUser = this.user;
+          this.globals.fireKeys = this.keys;
+          this.globals.fireData = this.data;
+          console.log('user is: ' + JSON.stringify(this.globals.currentUser));
+          console.log('data is: ' + JSON.stringify(this.globals.fireData));
+        },
+        onLoginError: function(err) {
+          console.log('An error occurred: ' + JSON.stringify(err));
+        },
+        handleFBResponse: function(response) {
+          console.log('FB response: ' + JSON.stringify(response));
+        }
+      });
+
+    })();
+  </script>
+</polymer-element>
