@@ -26,6 +26,10 @@ core-header-panel {
   		color: black;
   	}
   }
+  #new-app-btn {
+    background: red;
+    border-radius: 50%;
+  }
 }
 
 core-header-panel::shadow #mainContainer {
@@ -80,6 +84,9 @@ core-toolbar {
   width: 100%;
   .stat-row-third {
     height: 35%;
+  }
+  .stat-box img {
+    width: 100%;
   }
   .stat-box-third {
     width: 32%;

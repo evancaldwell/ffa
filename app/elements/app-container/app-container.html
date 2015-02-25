@@ -47,6 +47,7 @@
           <core-toolbar id="core_toolbar">
             <core-icon-button icon="menu" id="drawer-open-icon" core-drawer-toggle></core-icon-button>
             <div id="title" flex>Dashboard</div>
+            <paper-icon-button id="new-app-btn" icon="add"></paper-icon-button>
             <paper-menu-button id="pic-button">
               <core-image sizing="cover" preload fade  src="{{globals.currentUser.github.cachedUserProfile.avatar_url}}"></core-image>
               <paper-dropdown class="dropdown" halign="right">
@@ -61,21 +62,34 @@
 
           <section id="stats-main" vertical layout>
             <div id="stat-row-1" class="stat-row stat-row-third" horizontal layout>
-              <p>{{globals.currentUser.uid}}</p>
+              <!-- <p>{{globals.currentUser.uid}}</p> -->
+              <div class="stat-box">
+                <img src="https://heapanalytics.com/img/graph1r.png">
+              </div>
             </div>
             <core-splitter direction="up"></core-splitter>
             <div id="stat-row-2" class="stat-row" horizontal layout flex>
-              <div class="stat-box stat-box-third"><p>row2box1</p></div>
+              <div class="stat-box stat-box-third">
+                <img src="http://bapam.org.uk/news/wp-content/uploads/2014/10/pie-chart.png">
+              </div>
               <core-splitter direction="left"></core-splitter>
-              <div class="stat-box" flex><p>row2box2</p></div>
+              <div class="stat-box" flex>
+                <img src="http://www.conceptdraw.com/How-To-Guide/picture/bar-diagram-for-problem-solving-space-science.png">
+              </div>
               <core-splitter direction="right"></core-splitter>
-              <div class="stat-box stat-box-third"><p>row2box3</p></div>
+              <div class="stat-box stat-box-third">
+                <img src="http://upload.wikimedia.org/wikipedia/commons/a/a9/Pie_Chart.PNG">
+              </div>
             </div>
             <core-splitter direction="down"></core-splitter>
             <div id="stat-row-3" class="stat-row stat-row-third" horizontal layout>
-              <div class="stat-box stat-box-half"><p>row3box1</p></div>
+              <div class="stat-box stat-box-half">
+                <img src="http://icmconsulting.com/media/uploads/Geothermal_heat_map_US.png">
+              </div>
               <core-splitter direction="left"></core-splitter>
-              <div class="stat-box" flex><p>row3box2</p></div>
+              <div class="stat-box" flex>
+                <img src="http://www.statsilk.com/files/images/example_interactive_scatterplot.jpg">
+              </div>
             </div>
           </section>
 
