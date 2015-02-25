@@ -69,3 +69,22 @@ core-toolbar {
 		margin-left: -15px;
 	}
 }
+
+#dash-main {
+  border-left: 1px solid lightgrey;
+}
+
+#stats-main {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  .stat-row-third {
+    height: 35%;
+  }
+  .stat-box-third {
+    width: 32%;
+  }
+  .stat-box-half {
+    width: 49%;
+  }
+}

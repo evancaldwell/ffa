@@ -23,9 +23,9 @@
       </div>
     </section>
 
-    <template bind if="{{globals.currentUse}}">
+    <template bind if="{{globals.currentUser}}">
       <core-drawer-panel transition selected="main" id="core_drawer_panel" touch-action>
-        <core-header-panel id="section" drawer>
+        <core-header-panel id="drawer" drawer>
           <core-toolbar class="drawer-title">
             <paper-icon-button class="drawer-close-icon" icon="arrow-back" core-drawer-toggle></paper-icon-button>
             <div>FFA</div>
@@ -43,7 +43,7 @@
             </core-submenu>
           </core-menu>
         </core-header-panel>
-        <core-header-panel id="section1" main>
+        <core-header-panel id="dash-main" main>
           <core-toolbar id="core_toolbar">
             <core-icon-button icon="menu" id="drawer-open-icon" core-drawer-toggle></core-icon-button>
             <div id="title" flex>Dashboard</div>
@@ -57,7 +57,29 @@
               </paper-dropdown>
             </paper-menu-button>
           </core-toolbar>
-          <p>{{globals.currentUser.uid}}</p>
+          <!-- ====== main content area start ====== -->
+
+          <section id="stats-main" vertical layout>
+            <div id="stat-row-1" class="stat-row stat-row-third" horizontal layout>
+              <p>{{globals.currentUser.uid}}</p>
+            </div>
+            <core-splitter direction="up"></core-splitter>
+            <div id="stat-row-2" class="stat-row" horizontal layout flex>
+              <div class="stat-box stat-box-third"><p>row2box1</p></div>
+              <core-splitter direction="left"></core-splitter>
+              <div class="stat-box" flex><p>row2box2</p></div>
+              <core-splitter direction="right"></core-splitter>
+              <div class="stat-box stat-box-third"><p>row2box3</p></div>
+            </div>
+            <core-splitter direction="down"></core-splitter>
+            <div id="stat-row-3" class="stat-row stat-row-third" horizontal layout>
+              <div class="stat-box stat-box-half"><p>row3box1</p></div>
+              <core-splitter direction="left"></core-splitter>
+              <div class="stat-box" flex><p>row3box2</p></div>
+            </div>
+          </section>
+
+          <!-- ====== main content area end ====== -->
         </core-header-panel>
       </core-drawer-panel>
     </template>
