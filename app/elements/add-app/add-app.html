@@ -1,0 +1,64 @@
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+
+<polymer-element name="add-app" attributes="">
+  <template>
+    <link rel="stylesheet" href="add-app.css">
+
+    <!-- =========== non-display ========== -->
+    <firebase-element id="base" location="https://ffapps.firebaseio.com/" data="{{data}}" keys="{{keys}}"></firebase-element>
+    <firebase-element id="users" location="https://ffapps.firebaseio.com/users/" data="{{users}}" keys="{{userKeys}}"></firebase-element>
+    <pvc-globals values="{{globals}}"></pvc-globals>
+
+    <!-- =========== display ========== -->
+    <section id="basic-info">
+      <h1>Basic Information</h1>
+      <paper-input-decorator floatingLabel label="App Name">
+        <input is="core-input">
+      </paper-input-decorator>
+      <paper-input-decorator floatingLabel label="App Description">
+        <textarea></textarea>
+      </paper-input-decorator><paper-input-decorator floatingLabel label="Category">
+        <input is="core-input">
+      </paper-input-decorator>
+    </section>
+    <section id="logo-upload">
+      <h1>Logo</h1>
+      <img src="#"><br>
+      <input type="file"><span><p>upload your logo</p></span>
+    </section>
+    <hr class="hr-linespace">
+    <section class="survey-questions">
+      <h1>Survey Questions</h1>
+      <ul>
+        <li>
+          <p>1.</p>
+          <survey-question></survey-question>
+        </li>
+        <li>
+          <p>2.</p>
+          <survey-question></survey-question>
+        </li>
+        <li>
+          <p>3.</p>
+          <survey-question></survey-question>
+        </li>
+        <li>
+          <p>4.</p>
+          <survey-question></survey-question>
+        </li>
+        <li>
+          <p>5.</p>
+          <survey-question></survey-question>
+        </li>
+      </ul>
+    </section>
+
+  </template>
+  <script>
+    (function () {
+      Polymer({
+        // define element prototype here
+      });
+    })();
+  </script>
+</polymer-element>

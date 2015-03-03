@@ -1,0 +1,35 @@
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+
+<polymer-element name="survey-question" attributes="">
+  <template>
+    <link rel="stylesheet" href="survey-question.css">
+
+    <!-- =========== non-display ========== -->
+    <firebase-element id="q-types" location="https://ffapps.firebaseio.com/questionTypes" data="{{data}}" keys="{{keys}}"></firebase-element>
+    <pvc-globals values="{{globals}}"></pvc-globals>
+
+    <!-- =========== display ========== -->
+    <section horizontal layout>
+      <paper-input-decorator floatingLabel label="Question..." flex three>
+        <input is="core-input">
+      </paper-input-decorator>
+      <paper-dropdown-menu label="Question Type..." flex>
+        <paper-dropdown class="dropdown">
+          <core-menu class="menu">
+            <template repeat="{{key in keys}}">
+              <paper-item>{{data[key]}}</paper-item>
+            </template>
+          </core-menu>
+        </paper-dropdown>
+      </paper-dropdown-menu>
+    </section>
+
+  </template>
+  <script>
+    (function () {
+      Polymer({
+        // define element prototype here
+      });
+    })();
+  </script>
+</polymer-element>

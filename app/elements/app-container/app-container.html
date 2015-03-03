@@ -15,6 +15,9 @@
       on-core-response="{{handleFBResponse}}"></core-ajax> -->
 
     <!-- =========== display ========== -->
+
+    <add-app></add-app>
+    
     <section class="full-height" horizontal center-justified center layout>
       <div vertical layout>
         <h1>Login With:</h1>
@@ -23,7 +26,7 @@
       </div>
     </section>
 
-    <template bind if="{{globals.currentUser}}">
+    <template bind if="{{globals.currentUse}}">
       <core-drawer-panel transition selected="main" id="core_drawer_panel" touch-action>
         <core-header-panel id="drawer" drawer>
           <core-toolbar class="drawer-title">

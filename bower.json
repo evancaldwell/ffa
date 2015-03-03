@@ -18,7 +18,8 @@
     "paper-item": "polymer/paper-item#~0.5.4",
     "paper-shadow": "polymer/paper-shadow#~0.5.4",
     "social-media-icons": "~0.0.2",
-    "core-image": "polymer/core-image#~0.5.4"
+    "core-image": "polymer/core-image#~0.5.4",
+    "paper-input": "polymer/paper-input#~0.5.5"
   },
   "devDependencies": {
     "web-component-tester": "Polymer/web-component-tester#^2.0.0"
