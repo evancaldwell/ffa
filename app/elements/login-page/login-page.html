@@ -1,0 +1,19 @@
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+
+<polymer-element name="login-page" attributes="">
+  <template>
+    <link rel="stylesheet" href="login-page.css">
+    <section vertical layout center-center>
+      <h1>Login with:</h1>
+      <fire-login provider="github"></fire-login>
+      <fire-login provider="facebook"></fire-login>
+    </section>
+  </template>
+  <script>
+    (function () {
+      Polymer({
+        // define element prototype here
+      });
+    })();
+  </script>
+</polymer-element>

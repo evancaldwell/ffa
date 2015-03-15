@@ -1,0 +1,49 @@
+:host {
+  display: block;
+}
+
+#pic-button {
+  font-size: 70%;
+  background-color: orange;
+  width: 55px;
+  height: 55px;
+  margin-left: 10px;
+  core-image {
+    height: 55px;
+    width: 55px;
+    background-color: lightgrey;
+    border-radius: 50%;
+  }
+}
+
+.menu {
+  color: black;
+  & > core-icon {
+    margin-right: 5px;
+  }
+}
+
+#new-app-btn {
+  background: red;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+#stats-main {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  .stat-row-third {
+    height: 35%;
+  }
+  .stat-box img {
+    width: 100%;
+  }
+  .stat-box-third {
+    width: 32%;
+  }
+  .stat-box-half {
+    width: 49%;
+  }
+}

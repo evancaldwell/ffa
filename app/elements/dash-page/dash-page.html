@@ -1,0 +1,74 @@
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+<link rel="import" href="/elements/sidebar-layout/sidebar-layout.html">
+<link rel="import" href="../../../bower_components/firebase-element/firebase-element.html">
+<link rel="import" href="../../../bower_components/firebase-element/firebase-login.html">
+<link rel="import" href="../../../bower_components/pvc-globals/pvc-globals.html">
+
+<polymer-element name="dash-page" attributes="">
+  <template>
+    <link rel="stylesheet" href="dash-page.scss">
+    <!-- =========== non-display ========== -->
+    <firebase-element id="base" location="https://faf.firebaseio.com/" data="{{data}}" keys="{{keys}}"></firebase-element>
+    <firebase-element id="users" location="https://faf.firebaseio.com/users/" data="{{users}}" keys="{{userKeys}}"></firebase-element>
+    <pvc-globals values="{{globals}}"></pvc-globals>
+
+    <sidebar-layout selected="dash">
+      <!-- =========== display ========== -->
+      <div class="title" layout horizontal center>
+        <p flex>Dashboard</p>
+        <paper-icon-button id="new-app-btn" icon="add" vertical layout center-center></paper-icon-button>
+        <paper-menu-button id="pic-button">
+          <core-image sizing="cover" preload fade  src="{{globals.currentUser.github.cachedUserProfile.avatar_url}}"></core-image>
+          <paper-dropdown class="dropdown" halign="right">
+            <core-menu class="menu">
+                <paper-item><core-icon icon="social:person"></core-icon>Profile</paper-item>
+                <paper-item><core-icon icon="exit-to-app"></core-icon>Logout</paper-item>
+            </core-menu>
+          </paper-dropdown>
+        </paper-menu-button>
+      </div>
+      <!-- <template bind if="{{globals.currentUser}}"> -->
+        <section id="stats-main" data-page="dash-main" vertical layout>
+          <div id="stat-row-1" class="stat-row stat-row-third" horizontal layout>
+            <p>Global user: {{globals.currentUser.uid}}</p>
+            <core-image sizing="cover" preload fade  src="{{globals.currentUser.github.cachedUserProfile.avatar_url}}"></core-image>
+            <div class="stat-box">
+              <img src="https://heapanalytics.com/img/graph1r.png">
+            </div>
+          </div>
+          <core-splitter direction="up"></core-splitter>
+          <div id="stat-row-2" class="stat-row" horizontal layout flex>
+            <div class="stat-box stat-box-third">
+              <img src="http://bapam.org.uk/news/wp-content/uploads/2014/10/pie-chart.png">
+            </div>
+            <core-splitter direction="left"></core-splitter>
+            <div class="stat-box" flex>
+              <img src="http://www.conceptdraw.com/How-To-Guide/picture/bar-diagram-for-problem-solving-space-science.png">
+            </div>
+            <core-splitter direction="right"></core-splitter>
+            <div class="stat-box stat-box-third">
+              <img src="http://upload.wikimedia.org/wikipedia/commons/a/a9/Pie_Chart.PNG">
+            </div>
+          </div>
+          <core-splitter direction="down"></core-splitter>
+          <div id="stat-row-3" class="stat-row stat-row-third" horizontal layout>
+            <div class="stat-box stat-box-half">
+              <img src="http://icmconsulting.com/media/uploads/Geothermal_heat_map_US.png">
+            </div>
+            <core-splitter direction="left"></core-splitter>
+            <div class="stat-box" flex>
+              <img src="http://www.statsilk.com/files/images/example_interactive_scatterplot.jpg">
+            </div>
+          </div>
+        </section>
+      <!-- </template> -->
+    </sidebar-layout>
+  </template>
+  <script>
+    (function () {
+      Polymer({
+        // define element prototype here
+      });
+    })();
+  </script>
+</polymer-element>

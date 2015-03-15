@@ -1,0 +1,58 @@
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+
+<polymer-element name="fire-login" attributes="provider">
+  <template>
+    <link rel="stylesheet" href="fire-login.css">
+
+    <!-- =========== non-display ========== -->
+    <!-- TODO: make this a generic login element that accepts a provider attribute -->
+    <firebase-login 
+        id="baseLogin" 
+        user="{{user}}" 
+        statusKnown="{{statusKnown}}" 
+        location="https://ffapps.firebaseio.com/" 
+        provider="{{provider}}"
+        on-login="{{onLogin}}"
+        on-error="{{onLoginError}}"></firebase-login>
+    <firebase-element id="base" location="https://ffapps.firebaseio.com/" data="{{data}}" keys="{{keys}}"></firebase-element>
+    <firebase-element id="users" location="https://ffapps.firebaseio.com/users/" data="{{users}}" keys="{{userKeys}}"></firebase-element>
+    <pvc-globals values="{{globals}}"></pvc-globals>
+
+    <!-- =========== display ========== -->
+    <section>
+      <paper-button on-click="{{login}}" hidden?="{{!statusKnown || user}}"><social-media-icons icon="{{provider}}" color="#bada55" size="35"></social-media-icons>Github</paper-button>
+      <paper-button on-click="{{logout}}" hidden?="{{!statusKnown || !user}}">Logout</span></paper-button>
+    </section>
+
+  </template>
+  <script>
+    (function () {
+      'use strict';
+
+      Polymer({
+        // define element prototype here
+        login: function() {
+          this.$.baseLogin.login();
+        },
+        logout: function() {
+          this.$.baseLogin.logout();
+        },
+        onLogin: function() {
+          this.globals.currentUser = this.user;
+          this.globals.fireKeys = this.keys;
+          this.globals.fireData = this.data;
+          console.log('user is: ' + JSON.stringify(this.globals.currentUser));
+          console.log('data is: ' + JSON.stringify(this.globals.fireData));
+          document.querySelector('app-router').go('/dash');
+        },
+        onLoginError: function(err) {
+          console.log('An error occurred: ' + JSON.stringify(err));
+        },
+        handleFBResponse: function(response) {
+          console.log('FB response: ' + JSON.stringify(response));
+        }
+      });
+
+    })();
+  </script>
+</polymer-element>

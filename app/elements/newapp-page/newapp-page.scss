@@ -1,0 +1,21 @@
+:host {
+  display: block;
+}
+
+li {
+	list-style: none;	
+	p {
+		font-size: 1.4em;
+	}
+}
+
+sidebar-layout > * {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.hr-linespace {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: grey;
+}

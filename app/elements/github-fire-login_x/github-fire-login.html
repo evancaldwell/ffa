@@ -3,12 +3,13 @@
     <link rel="stylesheet" href="github-fire-login.css">
 
     <!-- =========== non-display ========== -->
+    <!-- TODO: make this a generic login element that accepts a provider attribute -->
     <firebase-login 
         id="GHbaseLogin" 
         user="{{user}}" 
         statusKnown="{{statusKnown}}" 
         location="https://ffapps.firebaseio.com/" 
-        provider="github" 
+        provider="github"
         on-login="{{onLogin}}"
         on-error="{{onLoginError}}"></firebase-login>
     <firebase-element id="base" location="https://ffapps.firebaseio.com/" data="{{data}}" keys="{{keys}}"></firebase-element>

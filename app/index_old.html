@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>ffa</title>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
+    <!-- endbuild-->
+
+    <!-- build:js bower_components/webcomponentsjs/webcomponents.min.js -->
+    <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:vulcanized elements/elements.vulcanized.html -->
+    <link rel="import" href="elements/elements.html">
+    <!-- endbuild-->
+  </head>
+  <body fullbleed unresolved>
+    <!-- =========== non-display ========== -->
+    <firebase-element id="base" location="https://ffapps.firebaseio.com/" data="{{data}}" keys="{{keys}}"></firebase-element>
+    <firebase-element id="users" location="https://ffapps.firebaseio.com/users/" data="{{users}}" keys="{{userKeys}}"></firebase-element>
+    <pvc-globals values="{{globals}}"></pvc-globals>
+    <core-a11y-keys target="{{parentElement}}"
+                    keys="up down left right space space+shift"
+                    on-keys-pressed="{{keyHandler}}"></core-a11y-keys>
+
+    <!-- =========== display ========== -->
+    <!-- <app-container></app-container> -->
+
+    <template is="auto-binding" id="app">
+        <core-drawer-panel transition selected="main" id="core_drawer_panel" touch-action>
+          <core-header-panel id="drawer" drawer>
+            <core-toolbar class="drawer-title">
+              <paper-icon-button class="drawer-close-icon" icon="arrow-back" core-drawer-toggle></paper-icon-button>
+              <div>FFA</div>
+            </core-toolbar>
+            <core-menu id="core_menu" selected="{{route}}" valueattr="hash" selectedModel="{{selectedPage}}" vertical layout one flex>
+              <template repeat="{{page in pages}}">
+                <paper-item hash="{{page.hash}}" noink>
+                  <core-icon icon="label-outline"></core-icon>
+                  <a href="#{{page.hash}}">{{page.name}}</a>
+                </paper-item>
+              </template>
+            </core-menu>
+          </core-header-panel>
+
+          <core-header-panel id="dash-main" main>
+            <core-toolbar id="core_toolbar">
+              <core-icon-button icon="menu" id="drawer-open-icon" core-drawer-toggle></core-icon-button>
+              <div id="title" flex>Dashboard</div>
+              <paper-icon-button id="new-app-btn" icon="add"></paper-icon-button>
+              <paper-menu-button id="pic-button">
+                <core-image sizing="cover" preload fade  src="{{globals.currentUser.github.cachedUserProfile.avatar_url}}"></core-image>
+                <paper-dropdown class="dropdown" halign="right">
+                  <core-menu class="menu">
+                      <paper-item>Profile</paper-item>
+                      <paper-item>Logout</paper-item>
+                  </core-menu>
+                </paper-dropdown>
+              </paper-menu-button>
+            </core-toolbar>
+            <core-animated-pages valueattr="hash" selected="{{route}}" transitions="slide-from-right">
+
+              <app-router core-animated-pages transitions="hero-transition cross-fade">
+                <app-route path="/dash" import="/pages/dash.html"></app-route>
+                <app-route path="/new_app" import="/pages/new_app.html"></app-route>
+              </app-router>
+              
+            </core-animated-pages>
+          </core-header-panel>
+        </core-drawer-panel>
+      </template>
+
+    <!-- build:js scripts/app.js -->
+    <script src="scripts/app.js"></script>
+    <!-- endbuild-->
+  </body>
+</html>

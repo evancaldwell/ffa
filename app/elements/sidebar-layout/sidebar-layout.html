@@ -1,0 +1,37 @@
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+
+<polymer-element name="sidebar-layout" attributes="selected">
+  <template>
+    <link rel="stylesheet" href="sidebar-layout.css"> <!-- TODO: not sure why these need to be scss instead of css -->
+    <!-- =========== non-display ========== -->
+    <firebase-element id="base" location="https://ffapps.firebaseio.com/" data="{{data}}" keys="{{keys}}"></firebase-element>
+    <firebase-element id="users" location="https://ffapps.firebaseio.com/users/" data="{{users}}" keys="{{userKeys}}"></firebase-element>
+    <pvc-globals values="{{globals}}"></pvc-globals>
+    <core-a11y-keys target="{{parentElement}}"
+                    keys="up down left right space space+shift"
+                    on-keys-pressed="{{keyHandler}}"></core-a11y-keys>
+
+    <core-scaffold>
+      <core-header-panel navigation flex mode="seamed">
+        <core-toolbar>FFA</core-toolbar>
+        <core-item icon="dashboard" label="Dash" active?="{{selected == 'dash'}}"><a is="pushstate-anchor" href="/dash"></a></core-item>
+        <core-item icon="polymer" label="App 1" active?="{{selected == 'demo'}}"><a is="pushstate-anchor" href="/demo/1337?queryParam1=Routing%20with%20Web%20Components!"></a></core-item>
+        <core-item icon="info-outline" label="Notes" active?="{{selected == 'notes'}}"><a is="pushstate-anchor" href="/notes"></a></core-item>
+        <core-item icon="add-circle-outline" label="New App" active?="{{selected == 'newapp'}}"><a is="pushstate-anchor" href="/new"></a></core-item>
+      </core-header-panel>
+      <div tool flex>
+        <content select=".title" flex></content>
+      </div>
+      <div class="content">
+        <content></content>
+      </div>
+    </core-scaffold>
+  </template>
+  <script>
+    (function () {
+      Polymer({
+        // define element prototype here
+      });
+    })();
+  </script>
+</polymer-element>

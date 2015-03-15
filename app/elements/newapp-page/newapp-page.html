@@ -1,0 +1,60 @@
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+<link rel="import" href="/elements/sidebar-layout/sidebar-layout.html">
+
+<polymer-element name="newapp-page" attributes="">
+  <template>
+    <link rel="stylesheet" href="newapp-page.css">
+    <sidebar-layout selected="newapp">
+      <div class="title">New App</div>
+      <section id="basic-info">
+        <h1>Basic Information</h1>
+        <paper-input-decorator floatingLabel label="App Name">
+          <input is="core-input">
+        </paper-input-decorator>
+        <paper-input-decorator floatingLabel label="App Description">
+          <textarea></textarea>
+        </paper-input-decorator><paper-input-decorator floatingLabel label="Category">
+          <input is="core-input">
+        </paper-input-decorator>
+      </section>
+      <section id="logo-upload">
+        <h1>Logo</h1>
+        <img src="#"><br>
+        <input type="file"><span><p>upload your logo</p></span>
+      </section>
+      <hr class="hr-linespace">
+      <section class="survey-questions">
+        <h1>Survey Questions</h1>
+        <ul>
+          <li layout horizontal>
+            <p flex>1.</p>
+            <survey-question flex twelve></survey-question>
+          </li>
+          <li layout horizontal>
+            <p flex>2.</p>
+            <survey-question flex twelve></survey-question>
+          </li>
+          <li layout horizontal>
+            <p flex>3.</p>
+            <survey-question flex twelve></survey-question>
+          </li>
+          <li layout horizontal>
+            <p flex>4.</p>
+            <survey-question flex twelve></survey-question>
+          </li>
+          <li layout horizontal>
+            <p flex>5.</p>
+            <survey-question flex twelve></survey-question>
+          </li>
+        </ul>
+      </section>
+    </sidebar-layout>
+  </template>
+  <script>
+    (function () {
+      Polymer({
+        // define element prototype here
+      });
+    })();
+  </script>
+</polymer-element>
