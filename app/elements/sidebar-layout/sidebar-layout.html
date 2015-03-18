@@ -14,10 +14,10 @@
     <core-scaffold>
       <core-header-panel navigation flex mode="seamed">
         <core-toolbar>FFA</core-toolbar>
-        <core-item icon="dashboard" label="Dash" active?="{{selected == 'dash'}}"><a is="pushstate-anchor" href="/dash"></a></core-item>
-        <core-item icon="polymer" label="App 1" active?="{{selected == 'demo'}}"><a is="pushstate-anchor" href="/demo/1337?queryParam1=Routing%20with%20Web%20Components!"></a></core-item>
-        <core-item icon="info-outline" label="Notes" active?="{{selected == 'notes'}}"><a is="pushstate-anchor" href="/notes"></a></core-item>
-        <core-item icon="add-circle-outline" label="New App" active?="{{selected == 'newapp'}}"><a is="pushstate-anchor" href="/new"></a></core-item>
+        <core-item icon="dashboard" label="Dash" active?="{{selected == 'dash'}}"><a href="#/dash"></a></core-item>
+        <core-item icon="polymer" label="App 1" active?="{{selected == 'demo'}}"><a href="#/demo/1337?queryParam1=Routing%20with%20Web%20Components!"></a></core-item>
+        <core-item icon="info-outline" label="Notes" active?="{{selected == 'notes'}}"><a href="#/notes"></a></core-item>
+        <core-item icon="add-circle-outline" label="New App" active?="{{selected == 'newapp'}}"><a href="#/new"></a></core-item>
       </core-header-panel>
       <div tool flex>
         <content select=".title" flex></content>

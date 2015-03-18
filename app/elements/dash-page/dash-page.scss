@@ -4,14 +4,10 @@
 
 #pic-button {
   font-size: 70%;
-  background-color: orange;
-  width: 55px;
-  height: 55px;
   margin-left: 10px;
   core-image {
     height: 55px;
     width: 55px;
-    background-color: lightgrey;
     border-radius: 50%;
   }
 }
